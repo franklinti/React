@@ -1,0 +1,31 @@
+/* removendo formatacao padrao index*/
+
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  *:focus{
+      outline: 0;
+  }
+  /*alterando altura padrao tela public/index root*/
+  html,body,#root{
+      height:100%;
+  }
+  /*tamanho fonte padrao*/
+  body{
+    font:14px 'Roboto' ,sans-serif;
+    background-color: #EFEFEFEF;
+  }
+  /*remover sublinhado texto*/
+  a{
+      text-decoration: none;
+  }
+  /*remover formatacao ponto lista*/
+  ul{
+    list-style: none;
+  }
+  /*cursor mao ao passar mouse no button*/
+  button{
+      cursor: pointer;
+  }
